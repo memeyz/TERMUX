@@ -78,7 +78,7 @@ while true; do
             echo "$worker" > "$WORKER_FILE"
             ;;
         5)
-            read -p "Enter coin symbol (e.g., XMR, DOGE, SHIB): " coin
+            read -p "Enter coin symbol (e.g., LTC, XMR, DOGE, SHIB): " coin
             echo "$coin" > "$COIN_FILE"
             ;;
         6)
