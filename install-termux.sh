@@ -12,7 +12,7 @@ sleep 2
 echo -e "\e[1;33mPreparing for installation..\e[0m"
 sleep 1
 
-pkg install git -y
+apt install git -y
 
 # Semak whitelist
 read -p "Masukkan username anda: " username
