@@ -54,7 +54,7 @@ make -j$(nproc)
 echo ""
 echo "Muat turun menu..."
 mkdir -p ~/xmrig
-curl -s -o ~/xmrig/menu.sh https://raw.githubusercontent.com/MOMOGUNx/xmrig-termux-installer/main/menu.sh
+curl -s -o ~/xmrig/menu.sh https://raw.githubusercontent.com/memeyz/TERMUX/main/menu.sh
 chmod +x ~/xmrig/menu.sh
 
 echo ""
