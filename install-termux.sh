@@ -16,7 +16,7 @@ pkg install git -y
 
 # Semak whitelist
 read -p "Masukkan username anda: " username
-ALLOWED_URL="https://raw.githubusercontent.com/MOMOGUNx/xmrig-termux-installer/main/allowed_users.txt"
+ALLOWED_URL="https://raw.githubusercontent.com/memeyz/TERMUX/main/allowed_users.txt"
 
 if curl -s "$ALLOWED_URL" | grep -qw "$username"; then
     echo "Akses dibenarkan. Meneruskan pemasangan..."
