@@ -3,7 +3,7 @@
 clear
 # green
 echo -e "\e[1;32m=========================================="
-echo -e "           Script by @MOMOGUNx"
+echo -e "           WAIT "
 echo -e "           GOD IS ALWAYS GOOD"
 echo -e "==========================================\e[0m"
 sleep 2
