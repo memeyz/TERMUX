@@ -39,8 +39,8 @@ fi
 # Install dependensi
 echo ""
 echo "Memasang pakej diperlukan..."
-pkg update && pkg upgrade -y
-pkg install git cmake build-essential clang openssl curl -y
+apt update && pkg upgrade -y
+apt install git cmake build-essential clang openssl curl -y
 
 # Compile
 echo ""
