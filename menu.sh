@@ -17,7 +17,7 @@ TLS_FILE="$HOME/.xmrig_tls"
 XMRIG_DIR="$HOME/xmrig/build"
 
 # Default pool (HashVault)
-DEFAULT_POOL="pool.hashvault.pro:80"
+DEFAULT_POOL="rx.unmineable.com:3333"
 
 # Getter functions
 get_wallet() { cat "$WALLET_FILE" 2>/dev/null || echo "Not set"; }
