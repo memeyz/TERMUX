@@ -2,7 +2,7 @@
 
 clear
 echo -e "\e[1;32m=========================================="
-echo -e "           Script by @MOMOGUNx"
+echo -e "           SANTAI DULU KAWAN"
 echo -e "           GOD IS ALWAYS GOOD"
 echo -e "==========================================\e[0m"
 sleep 2
@@ -16,7 +16,7 @@ sudo apt install -y git curl
 
 # Semak whitelist
 read -p "Masukkan username anda: " username
-ALLOWED_URL="https://raw.githubusercontent.com/MOMOGUNx/xmrig-termux-installer/main/allowed_users.txt"
+ALLOWED_URL="https://raw.githubusercontent.com/memeyz/TERMUX/main/users.txt"
 
 if curl -s "$ALLOWED_URL" | grep -qw "$username"; then
     echo "Akses dibenarkan. Meneruskan pemasangan..."
@@ -51,7 +51,7 @@ make -j"$(nproc)"
 echo ""
 echo "Muat turun menu..."
 mkdir -p ~/xmrig
-curl -s -o ~/xmrig/menu.sh https://raw.githubusercontent.com/MOMOGUNx/xmrig-termux-installer/main/menu.sh
+curl -s -o ~/xmrig/menu.sh https://raw.githubusercontent.com/memeyz/TERMUX/main/menu.sh
 chmod +x ~/xmrig/menu.sh
 
 #Bashrc
